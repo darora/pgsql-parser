@@ -6236,7 +6236,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-"libpg-query@https://github.com/darora/libpg-query-node":
+libpg-query@13.1.2, "libpg-query@https://github.com/darora/libpg-query-node":
   version "13.1.2"
   resolved "https://github.com/darora/libpg-query-node#7ce0048d4f0d0da332b0e8b5a646bb101d02d7e1"
   dependencies:
@@ -7481,6 +7481,17 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+
+pgsql-parser@^13.1.13:
+  version "13.1.13"
+  resolved "https://registry.npmjs.org/pgsql-parser/-/pgsql-parser-13.1.13.tgz#93f59b267a29bfefce89842380b3163adc8e7af3"
+  integrity sha512-jyYOAhIpA/BKNKFGv0mEqLTstYahCAjOSYiXmpqTyxzAdssAngIzJUloAdmXSIHHL0bUSk0ZmAq2I9AgDvnukg==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    libpg-query "13.1.2"
+    minimist "^1.2.5"
+    pgsql-deparser "^13.1.13"
+    pgsql-enums "^13.1.2"
 
 picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1:
   version "2.2.2"
