@@ -1,6 +1,6 @@
 {
   "name": "@div_arora/pgsql-parser",
-  "version": "13.1.13",
+  "version": "13.1.14-alpha.0",
   "description": "The real PostgreSQL query parser",
   "author": "Dan Lynch <pyramation@gmail.com>",
   "homepage": "https://github.com/darora/pgsql-parser",
